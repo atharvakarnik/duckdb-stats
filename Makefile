@@ -6,7 +6,7 @@ DBT_FOLDER = transform/pypi_metrics/
 DBT_TARGET = dev
 DBT_DATA_SOURCE = motherduck
 DOCKER ?= false
-DOCKER_CMD = 
+DOCKER_CMD =  
 DOCKER_IMAGE ?= ghcr.io/$(REPOSITORY)
 TRANSFORM_S3_PATH_INPUT ?= s3://whatever
 
