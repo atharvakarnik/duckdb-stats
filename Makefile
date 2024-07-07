@@ -1,7 +1,7 @@
 -include .env
 export
 
-REPOSITORY=mehd-io/pypi-duck-flow
+REPOSITORY=atharvakarnik/duckdb-stats
 DBT_FOLDER = transform/pypi_metrics/
 DBT_TARGET = dev
 DBT_DATA_SOURCE = motherduck
